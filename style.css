@@ -1,0 +1,63 @@
+body {
+    font-family: 'Snowburst One';
+    background-color:#add8e6;
+    font-size: 20px;
+}
+
+h2, h4 {
+    font-family: thasadith;
+    font-weight: bold;
+}
+
+.head {
+    height: 300px;
+    background-color: skyblue;
+    font-family: 'Times';
+    text-align: center;
+    padding-top:50px;
+}
+
+@media (max-width: 480px) {
+    .display-4 {
+      font-size: 40px;
+    }
+}
+
+#top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.content {
+    padding: 15px;
+}
+
+#media {
+    display: inline-block;
+    padding: 15px;
+}
+
+h4 {
+    margin-top: 30px;
+    text-decoration: underline;
+    color: rgba(39, 123, 29,1)
+}
+
+.img-fluid {
+    width:400px;
+    height: 300px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.deco {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 10px;
+    text-align:center; 
+}

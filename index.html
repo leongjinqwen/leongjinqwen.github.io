@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <Title>My Profile</Title>
+    <!-- link to snowburst font file -->
+    <link href="https://fonts.googleapis.com/css?family=Snowburst+One" rel="stylesheet">
+    <!-- link to Thasadith font file -->
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+    <!-- link to bootstrap file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- link to css file -->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+ 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">
+            <img src="image/logo.png" width=60px height=30px/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#details">Details</a>
+                </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Gallery
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#photo">Photo</a>
+                <a class="dropdown-item" href="#video">Video</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </nav>
+
+    <div class="head jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">LET'S BUILD SOMETHING AMAZING TOGETHER</h1>
+            <p class="lead"><em>I Eat, I Code, I Sleep</em></p>
+        </div>
+    </div>
+
+    <div class="content container-fluid">
+        <h2 id="about">About Me</h2>
+            <p>Hi, I'm <strong>Jinq Wen</strong>. Nice to meet you.
+                <br />
+                I am currently learning coding in <a href="https://www.nextacademy.com/">Next Academy</a>. Come join me at Next Academy!
+            </p>
+    </div>
+
+   <div class="content container-fluid">
+        <h2 id="details">Personal Details</h2>
+        <!-- table show here -->
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                <td>Name</td>
+                <td>Leong Jinq Wen</td>
+                </tr>
+                <tr>
+                    <td>Year of Birth</td>
+                    <td>1991</td>
+                </tr>
+                <tr>                  
+                    <td>Phone number</td>
+                    <td>+60125583127</td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>leongjinqwen@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td>Advance Diploma in Commerce</td>
+                </tr>
+                <tr>
+                    <td>Working Experience</td>
+                    <td>4 years as Account & Tax Assistant</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="media">
+        <h2>Gallery</h2>
+            <h4 id="photo">Photo</h4>
+                <p>Here are some of my travel photo.</p>
+                <img class="img-fluid" alt="Responsive image" src="image/gallery/p1.jpg"/>
+				<img class="img-fluid" alt="Responsive image" src="image/gallery/p2.jpg"/>
+                <img class="img-fluid" alt="Responsive image" src="image/gallery/p3.jpg"/>
+                <img class="img-fluid" alt="Responsive image" src="image/gallery/p4.jpg"/>
+				<img class="img-fluid" alt="Responsive image" src="image/gallery/p5.jpg"/>
+                <img class="img-fluid" alt="Responsive image" src="image/gallery/p6.jpg"/>
+                <img class="img-fluid" alt="Responsive image" src="image/gallery/p7.jpg"/>
+				<img class="img-fluid" alt="Responsive image" src="image/gallery/p8.jpg"/>
+                <img class="img-fluid" alt="Responsive image" src="image/gallery/p9.jpg"/>
+                <img class="img-fluid" alt="Responsive image" src="image/gallery/p10.jpg"/>  
+            <h4 id="video">Video</h4>
+                <p>Check out video I taken during my working holiday in New Zealand.</p>
+                <iframe id="yout" width="560" height="315" src="https://www.youtube.com/embed/P8Sh_GGFeww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+    </div>
+
+    <div class="content container-fluid">
+        <h2 id="contact">Contact Me</h2>
+            <p>You can follow me in the following social media.</p>
+                <p>
+                    <a class="deco" href="https://www.facebook.com/jw.leong">
+                        <img src="image/fb.png" height=30px width=30px/>
+                    </a>
+                    <a class="deco" href="https://twitter.com/jwenleong">
+                        <img src="image/twitter.png" height=30px width=30px/>
+                    </a>
+                    <a class="deco" href="https://www.instagram.com/jw_leong/">
+                        <img src="image/instagram.png" height=30px width=30px/>
+                    </a>
+                </p>
+    </div>
+    
+
+    
+    
+    <footer>
+        Copyright &copy; JwLeong 2019. All rights reserved
+    </footer>
+    <div id="top">
+        <a href="#">
+            <img id="top" src="image/topicon.png"/>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
